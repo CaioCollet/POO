@@ -54,7 +54,7 @@ public class Pessoa {
 
     }
 
-    public void setCor(String cor) {
+    public void setBiotipo(String BioTipo) {
         this.bioTipo = bioTipo;
 
     }

@@ -27,7 +27,22 @@ public class POO {
         Pessoa umaPessoa = new Pessoa();
         umaPessoa.setNome("caio");
         umaPessoa.setCorDoCabelo("preto");
-        umaPessoa.setBioTipo("magro");
+        umaPessoa.setBiotipo("magro");
         umaPessoa.setIdade(27);
 
-        
+        Barco umBarco = new Barco();
+
+        umBarco.setTipo("dois pes");
+        umBarco.setCor("vermelho");
+        umBarco.setNome("CAIO");
+        umBarco.setNumMotes("dois");
+
+        meuCarro.imprimeDadosDoCarro();
+
+        umaPessoa.imprimeDadosPessoa();
+
+        umBarco.imprimeDadosBarco();
+
+    }
+
+}
