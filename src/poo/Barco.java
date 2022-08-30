@@ -15,7 +15,18 @@ public class Barco {
     String cor;
     String nome;
     int numMotores;
+void imprimeDadosBarco(){
+        System.out.println("-----------Barco----------");
+        System.out.println("cor:" + cor);
+        System.out.println("Nome: " + nome);
+        System.out.println("tipo: " +  tipo);
+        System.out.println("Numero de motores : " + numMotores);
 
+    
+    
+    
+    
+}
     public String getTipo() {
         return tipo;
 
